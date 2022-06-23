@@ -1,3 +1,6 @@
 function squareDigits(num){
-  return 0;
+  return num;
 }
+
+console.log(squareDigits(3212));
+
