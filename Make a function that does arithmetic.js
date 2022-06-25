@@ -16,4 +16,4 @@ switch (operator) {
 
 }
 
-console.log( arithmetic(859, 8, "divide") );
+console.log(arithmetic(859, 8, "divide"));
