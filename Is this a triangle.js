@@ -1,8 +1,7 @@
 function isTriangle(a,b,c)
 {
-  let p = ((a+b+c)/2).toFixed(2);
-  let s = Math.sqrt(p*(p-a)*(p-b)*(p-c));
-  return s;
+  let p = ((a+b+c)/2).toFixed();
+  let s = Math.sqrt(p*((p-a)*(p-b)*(p-c)));
 }
 
-console.log( isTriangle(7,2,2) );
+console.log( isTriangle(5,5,-2) );
