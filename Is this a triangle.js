@@ -1,7 +1,7 @@
 function isTriangle(a,b,c)
 {
-  let p = ((a+b+c)/2).toFixed();
-  let s = Math.sqrt(p*((p-a)*(p-b)*(p-c)));
+  [a, b, c] = [a,b,c].sort(((x, y) => x - y));
+  return a + b > c;
 }
 
 console.log( isTriangle(5,5,-2) );
