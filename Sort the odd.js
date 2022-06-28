@@ -12,7 +12,6 @@ function sortArray(a) {
       result.push(i);
     }
   }
-
   return result
 }
 
