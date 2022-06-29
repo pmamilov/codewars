@@ -3,4 +3,3 @@ function squareDigits(n){
 }
 
 console.log(squareDigits(3212));
-console.log(squareDigits(2123));
