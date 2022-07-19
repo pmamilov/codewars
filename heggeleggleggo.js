@@ -1,6 +1,7 @@
 //heggeleggleggo
 function heggeleggleggo(w){
-  return w
+  return w.replace(/[^aeiou\s]/gi, e=> e+'egg');
 }
 
-console.log("code here");
+console.log( heggeleggleggo("code here") );
+//ceggodegge heggeregge
